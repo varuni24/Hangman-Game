@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("backgroundImgs/bkg.jpg"); 
+    background-size: cover;
+}
+
+h2 {
+    font-size: 50px;
+    padding-top: 200px;
+    color:black;
+}
+
+.choosecathead {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.animals, .countries {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.animals button, .countries button {
+    background-color:cornsilk;
+    color: black;
+    border: black 2px solid;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
